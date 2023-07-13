@@ -23,6 +23,8 @@ export const ContextProvider = ({ children }) => {
       isClicked,
       setIsClicked,
       handleClick,
+      screenSize,
+      setScreenSize
     }}>
       {children} 
     </StateContext.Provider>
